@@ -4,6 +4,7 @@
   "description": "JavaScript Variables Lab for Learn.co",
   "main": "index.js",
   "scripts": {
+        "start": "nodemon index.js",
     "test": "mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json"
   },
   "repository": {
